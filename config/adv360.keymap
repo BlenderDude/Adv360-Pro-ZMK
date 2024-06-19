@@ -88,11 +88,11 @@
 
         symbols {
             bindings = <
-&trans  &trans    &trans  &trans     &trans     &trans     &trans                                      &trans  &trans     &trans    &trans     &trans    &trans    &trans
-&trans  &trans    &trans  &kp GRAVE  &kp UNDER  &kp MINUS  &trans                                      &trans  &kp LBRC   &kp RBRC  &trans     &trans    &trans    &trans
-&trans  &kp EXCL  &kp AT  &kp HASH   &kp DLLR   &kp PRCNT  &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &trans    &trans  &kp TILDE  &kp EQUAL  &kp PLUS                   &trans      &trans                  &kp LBKT   &kp RBKT  &kp LT     &kp GT    &trans    &trans
-&trans  &trans    &trans  &trans     &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans    &trans     &trans    &trans    &trans
+&trans  &trans    &trans     &trans          &trans     &trans     &trans                                      &trans  &trans     &trans    &trans     &trans    &trans    &trans
+&trans  &trans    &kp GRAVE  &kp UNDERSCORE  &kp MINUS  &trans     &trans                                      &trans  &trans     &kp LBRC  &kp RBRC   &kp PIPE  &trans    &trans
+&trans  &kp EXCL  &kp AT     &kp HASH        &kp DLLR   &kp PRCNT  &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans  &trans    &trans     &kp TILDE       &kp EQUAL  &kp PLUS                   &trans      &trans                  &kp LBKT   &kp RBKT  &kp LT     &kp GT    &trans    &trans
+&trans  &trans    &trans     &trans          &trans                &trans  &trans  &trans      &trans  &trans  &trans             &trans    &trans     &trans    &trans    &trans
             >;
         };
     };
